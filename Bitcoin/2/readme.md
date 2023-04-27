@@ -1,7 +1,6 @@
 # miniminer
 
 
-![Alt text](thumb.jpg "Project screenshot")
 
 A minimalistic full working bitcoin miner implemented in python.
 
