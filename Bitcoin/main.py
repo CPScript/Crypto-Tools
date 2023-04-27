@@ -51,16 +51,14 @@ print("""
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠛⠻⠿⠿⢿⣿⣿⣿⣿⣿⣿⡿⠿⠿⠟⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 (==========================================================)
-[1]  = Bitcoin miner (Slow)
-[2]  = Bitcoin miner (Fast)
+[1]  = Bitcoin miner (Fast)
+[2]  = Bitcoin miner (Slow)
 [3]  = BTC wallet hacker V1
-[4]  = BTC wallet hacker V2
-[5]  = BTC wallet hacker V3
-[6]  = Under developement!
-[7]  = Under developement!
-[8]  = Under developement!
-[9]  = Under developement!
-[10] = Under developement!
+[4]  = BTC recovery
+[5]  = Bitcoin wallets
+[6]  = Brain33
+[7]  = MicroCollect
+
 
 
 """)
@@ -90,7 +88,7 @@ if choice == "2":
   os.system(delet)
   call(["python", "2/Install.py"])
   os.system(delet)
-  call(["python", "2/Miner.py"])
+  call(["python", "2/miner.py"])
 
 
 
@@ -104,7 +102,7 @@ if choice == "3":
   os.system(delet)
   call(["python", "3/Install.py"])
   os.system(delet)
-  call(["python", "3/main.py"])
+  call(["python", "3/XBitcoin.py"])
     
     
 
@@ -114,8 +112,6 @@ if choice == "4":
   time.sleep(5)
   os.system(delet)
   print("Done!")
-  os.system(delet)
-  call(["python", "4/Install.py"])
   os.system(delet)
   call(["python", "4/main.py"])
 
@@ -128,7 +124,31 @@ if choice == "5":
   os.system(delet)
   print("Done!")
   os.system(delet)
-  call(["python", "5/Install.py"])
-  os.system(delet)
   call(["python", "5/main.py"])
+
+
+
+if choice == "6":
+  os.system(delet)
+  print("Loading...")
+  time.sleep(5)
+  os.system(delet)
+  print("Done!")
+  os.system(delet)
+  call(["python", "6/Install.py"])
+  os.system(delet)
+  call(["python", "6/Brain33_V3.py"])
+
+
+
+if choice == "7":
+  os.system(delet)
+  print("Loading...")
+  time.sleep(5)
+  os.system(delet)
+  print("Done!")
+  os.system(delet)
+  call(["python", "7/Install.py"])
+  os.system(delet)
+  call(["python", "7/Microllect.py"])
 
