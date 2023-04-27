@@ -73,9 +73,9 @@ if choice == "1":
   os.system(delet)
   print("Done!")
   os.system(delet)
-  call(["python", "1/Install.py"])
+  call(["python", "Bitcoin/1/Install.py"])
   os.system(delet)
-  call(["python", "1/Miner.py"])
+  call(["python", "Bitcoin/1/Miner.py"])
 
 
 
@@ -86,9 +86,9 @@ if choice == "2":
   os.system(delet)
   print("Done!")
   os.system(delet)
-  call(["python", "2/Install.py"])
+  call(["python", "Bitcoin/2/Install.py"])
   os.system(delet)
-  call(["python", "2/miner.py"])
+  call(["python", "Bitcoin/2/miner.py"])
 
 
 
@@ -100,9 +100,9 @@ if choice == "3":
   os.system(delet)
   print("Done!")
   os.system(delet)
-  call(["python", "3/Install.py"])
+  call(["python", "Bitcoin/3/Install.py"])
   os.system(delet)
-  call(["python", "3/XBitcoin.py"])
+  call(["python", "Bitcoin/3/XBitcoin.py"])
     
     
 
@@ -113,7 +113,7 @@ if choice == "4":
   os.system(delet)
   print("Done!")
   os.system(delet)
-  call(["python", "4/main.py"])
+  call(["python", "Bitcoin/4/main.py"])
 
 
 
@@ -124,7 +124,7 @@ if choice == "5":
   os.system(delet)
   print("Done!")
   os.system(delet)
-  call(["python", "5/main.py"])
+  call(["python", "Bitcoin/5/main.py"])
 
 
 
@@ -135,9 +135,9 @@ if choice == "6":
   os.system(delet)
   print("Done!")
   os.system(delet)
-  call(["python", "6/Install.py"])
+  call(["python", "Bitcoin/6/Install.py"])
   os.system(delet)
-  call(["python", "6/Brain33_V3.py"])
+  call(["python", "Bitcoin/6/Brain33_V3.py"])
 
 
 
@@ -148,7 +148,7 @@ if choice == "7":
   os.system(delet)
   print("Done!")
   os.system(delet)
-  call(["python", "7/Install.py"])
+  call(["python", "Bitcoin/7/Install.py"])
   os.system(delet)
-  call(["python", "7/Microllect.py"])
+  call(["python", "Bitcoin/7/Microllect.py"])
 
