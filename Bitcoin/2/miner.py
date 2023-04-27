@@ -11,7 +11,7 @@ from pprint import pprint
 import time
 import random
 
-address = '1GvSP13YjQAu9VAa8J1Hvbc4n3N8kUE3Ch'
+address = 'bc1q4uuexl9p2tkgdzpzpmtu8wtrckyt5lq95wqy4n'
 nonce   = hex(random.randint(0,2**32-1))[2:].zfill(8)
 
 host    = 'solo.ckpool.org'
