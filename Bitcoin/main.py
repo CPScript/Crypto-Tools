@@ -56,11 +56,11 @@ print("""
 [3]  = BTC wallet hacker V1
 [4]  = BTC wallet hacker V2
 [5]  = BTC wallet hacker V3
-[6]  = nothing here!
-[7]  = nothing here!
-[8]  = nothing here!
-[9]  = nothing here!
-[10] = nothing here!
+[6]  = Under developement!
+[7]  = Under developement!
+[8]  = Under developement!
+[9]  = Under developement!
+[10] = Under developement!
 
 
 """)
@@ -75,4 +75,60 @@ if choice == "1":
   os.system(delet)
   print("Done!")
   os.system(delet)
-  call(["python", "1.py"])
+  call(["python", "1/Install.py"])
+  os.system(delet)
+  call(["python", "1/Miner.py"])
+
+
+
+if choice == "2":
+  os.system(delet)
+  print("Loading...")
+  time.sleep(5)
+  os.system(delet)
+  print("Done!")
+  os.system(delet)
+  call(["python", "2/Install.py"])
+  os.system(delet)
+  call(["python", "2/Miner.py"])
+
+
+
+
+if choice == "3":
+  os.system(delet)
+  print("Loading...")
+  time.sleep(5)
+  os.system(delet)
+  print("Done!")
+  os.system(delet)
+  call(["python", "3/Install.py"])
+  os.system(delet)
+  call(["python", "3/main.py"])
+    
+    
+
+if choice == "4":
+  os.system(delet)
+  print("Loading...")
+  time.sleep(5)
+  os.system(delet)
+  print("Done!")
+  os.system(delet)
+  call(["python", "4/Install.py"])
+  os.system(delet)
+  call(["python", "4/main.py"])
+
+
+
+if choice == "5":
+  os.system(delet)
+  print("Loading...")
+  time.sleep(5)
+  os.system(delet)
+  print("Done!")
+  os.system(delet)
+  call(["python", "5/Install.py"])
+  os.system(delet)
+  call(["python", "5/main.py"])
+
