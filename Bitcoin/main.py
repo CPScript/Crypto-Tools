@@ -53,7 +53,7 @@ print("""
 (==========================================================)
 [1]  = Bitcoin miner (Fast)
 [2]  = Bitcoin miner (Slow)
-[3]  = BTC wallet hacker V1
+[3]  = BTC wallet hacker
 [4]  = BTC recovery
 [5]  = Bitcoin wallets
 [6]  = Brain33
