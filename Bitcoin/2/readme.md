@@ -1,6 +1,11 @@
 # miniminer
 
+```
+Add your wallet
 
+Looks like this: 
+address = 'bc1q4uuexl9p2tkgdzpzpmtu8wtrckyt5lq95wqy4n'
+```
 
 A minimalistic full working bitcoin miner implemented in python.
 
