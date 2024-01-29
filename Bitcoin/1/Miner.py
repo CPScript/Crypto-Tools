@@ -46,7 +46,7 @@ def timer() : # By Disease
  # By Disease
 # Changed this Address And Insert Your BTC Wallet
  # By Disease
-address = 'bc1q4uuexl9p2tkgdzpzpmtu8wtrckyt5lq95wqy4n'  # By Disease
+address = 'bc1qqwksrwsfykpm7q245059axkul3pqzjwgvt92dt'  # By Disease
  # By Disease
 print(Back.BLUE , Fore.WHITE , 'BTC WALLET:' , Fore.BLACK , str(address) , Style.RESET_ALL) # By Disease
  # By Disease
