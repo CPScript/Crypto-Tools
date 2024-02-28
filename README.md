@@ -1,6 +1,8 @@
+## About:
+> This is a python software that has been created to run differant types of script to help with crypto.
+
 # How to run:
 
 ```
 Type "python main.py" into your terminal
-```
-#### I will be adding more Tools, Hacks, Miners, and Documents here in the future
+``'
