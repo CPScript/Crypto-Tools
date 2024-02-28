@@ -3,6 +3,4 @@
 
 # How to run:
 
-```
-Type "python main.py" into your terminal
-``'
+* Type `python main.py` into your terminal
